@@ -17,10 +17,7 @@ function App() {
     trackId: "",
   };
   return (
-    // Kita gunakan context dengan value yang akan digunakan di komponen-komponen
-    // Challenge: Setiap di-refresh, state kita akan kembali ke value. Bagaimana caranya kalau setiap refresh
-    // value state kita masih tetap ada?
-    // Clue: gunakan localStorage dari browser untuk simpan nilai state (tanpa Backend)
+
     <SongProvider initialSong={initialState}>
       {/* Kita gunakan Router agar setiap URL yang pengguna buka akan merender halaman yang diinginkan */}
       <Router>

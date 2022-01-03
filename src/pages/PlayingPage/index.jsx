@@ -9,7 +9,7 @@ const Text = styled.h1`
 `;
 
 const NoSongPlayed = () => {
-  return <Text>No music played. Please choose music first at playlist!</Text>;
+  return <Text>Pilih music terlebih dahulu.Menu Playlist</Text>;
 };
 
 const PlayingPage = () => {

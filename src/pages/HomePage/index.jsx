@@ -22,10 +22,10 @@ const HomePage = () => {
   return <HomePageWrapper>
     <MusicNoteIcon style={{ color: 'white', fontSize: '100px'}}/>
     <Header>
-      Welcome to MyPlayer
+      Selamat datang & Selamat mendengarkan
     </Header>
     <Subtitle>
-      Play your favorite song here.
+      Pilih lagu favorit anda.
     </Subtitle>
   </HomePageWrapper>;
 };
